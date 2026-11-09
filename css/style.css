@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.container {
+   width: 1320px;
+   margin: 0 auto; 
+}
+h5 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#card_design_Part {
+    padding: 100px 0;
+    background:skyblue;
+}
+.card_item {
+    width: 300px;
+    height: 600px;
+    background: white;
+    border-radius: 10px;
+}
+
+.card_logo {
+    display: flex;
+    justify-content: space-between;
+}
+.logo1 img {
+    width: 100px;
+    height: 100px;
+}
+.img_shoe img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.card_item h4 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.card_item p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(148, 143, 143);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.icon_star img {
+    width: 100px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.color_round {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_Part {
+    display: flex;
+    gap: 5px;
+}
+.right_Part h4,h6 {
+   margin-top: 10px;
+   margin-right: 20px;
+}
+.blue {
+    background:blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid magenta;
+    margin-top: 10px;
+}
+
+.magenda {
+    background:magenta;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.yellow {
+    background:yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
